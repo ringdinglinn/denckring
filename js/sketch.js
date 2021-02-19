@@ -27,7 +27,8 @@ var img4;
 
 function preload(){
 		data = loadJSON('https://ringdinglinn.github.io/denckring/denkring-data.json');
-		img1 = loadImage('https//ringdinglinn.github.io/denckring/hand1.png')
+		img1 = loadImage('../hand1.png');
+
 }
 
 function redraw(){
