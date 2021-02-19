@@ -26,7 +26,8 @@ var img3;
 var img4;
 
 function preload(){
-		data = loadJSON('https://ringdinglinn.github.io/denckring/denkring-data.json');		
+		data = loadJSON('https://ringdinglinn.github.io/denckring/denkring-data.json');
+		img1 = loadImage('https//ringdinglinn.github.io/denckring/hand1.png')
 }
 
 function redraw(){
@@ -45,6 +46,7 @@ function setup(){
 	drawCircles();
 	drawWords();
 	drawLines();
+	drawImages();
 
 	mouseX1 = mouseX;
 	mouseX0 = mouseX;
