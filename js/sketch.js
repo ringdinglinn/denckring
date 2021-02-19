@@ -27,7 +27,6 @@ var img4;
 
 function preload(){
 		data = loadJSON('../denkring-data.json');
-		img1 = loadImage('../hand1.png');
 }
 
 function redraw(){
