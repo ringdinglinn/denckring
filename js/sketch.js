@@ -45,7 +45,6 @@ function setup(){
 	drawCircles();
 	drawWords();
 	drawLines();
-	drawImages();
 
 	mouseX1 = mouseX;
 	mouseX0 = mouseX;
